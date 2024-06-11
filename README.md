@@ -17,5 +17,7 @@ The algorithm uses policy iteration to average the returns for all state action 
 
 ## Notes
 Currently, the agent is training on 5 million episodes which does *almost* a perfect job at finding the optimal policy. I believe that by increasing the number of episodes, the alorgorithm **will** converge to the optimal policy show below.
-![Optimal policy for blackjack](../Images/blackjackOptimalPolicy.PNG)
+
+![blackjackOptimalPolicy](https://github.com/rhuangr/Blackjack-MonteCarlo/assets/170949635/650c0cb3-2e94-4b18-9bf1-e061f95b9d84)
+
 If you wish to train the agent on more episodes, simply change the #episodes in `findOptimalPolicy(#episodes)`  located at the end of the code :smile:
