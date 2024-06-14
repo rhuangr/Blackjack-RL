@@ -1,7 +1,7 @@
 # Blackjack MonteCarlo
  
 
-## Solving Blackjack with Monte Carlo methods
+## Project Description
 This project is an implementation of the algorithm provided in the book ***Reinforcement Learning An Introduction by Barto and Sutton, Example 5.3.*** 
 
 The algorithm uses policy iteration to average the returns for all state action pairs to find the best move given a state of blackjack described by:
